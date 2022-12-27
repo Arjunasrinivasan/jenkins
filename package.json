@@ -1,0 +1,84 @@
+{
+	"name": "videoplayback",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.11.4",
+		"@testing-library/react": "^11.1.0",
+		"@testing-library/user-event": "^12.1.10",
+		"@zip.js/zip.js": "^2.3.11",
+		"axios": "^0.21.4",
+		"browserify-fs": "^1.0.0",
+		"dotenv": "^10.0.0",
+		"extract-zip": "^2.0.1",
+		"file-saver": "^2.0.5",
+		"google-maps-react": "^2.0.6",
+		"graceful-fs": "^4.2.8",
+		"jquery": "^3.6.0",
+		"jszip": "^3.7.1",
+		"plyr": "^3.6.8",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-dropzone": "^11.3.4",
+		"react-redux": "^7.2.5",
+		"react-router-dom": "^5.2.1",
+		"react-scripts": "4.0.3",
+		"react-spinners": "^0.11.0",
+		"redux": "^4.1.1",
+		"redux-thunk": "^2.3.0",
+		"store": "^2.0.12",
+		"string_decoder": "^1.3.0",
+		"tmp": "^0.2.1",
+		"tmp-promise": "^3.0.2",
+		"unzipper": "^0.10.11",
+		"web-vitals": "^1.0.1"
+	},
+	"jest": {
+		"snapshotSerializers": [
+			"enzyme-to-json/serializer"
+		],
+		"collectCoverageFrom": [
+			"src/**/*.js",
+			"!src/index.js"
+		],
+		"coverageReporters": [
+			"text"
+		]
+	},
+	"devDependencies": {
+		"enzyme": "^3.11.0",
+		"enzyme-adapter-react-16": "^1.15.6",
+		"enzyme-to-json": "^3.6.2",
+		"prettier": "^1.17.1",
+		"react-test-renderer": "^17.0.2"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"prettier": "prettier \"src/**/*.{js,jsx}\"",
+		"prettier:check": "yarn prettier --check",
+		"prettier:fix": "yarn prettier --write",
+		"test:ci":"jest --ci --runInBand --reporters=default --reporters=jest-junit"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+
+}

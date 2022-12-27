@@ -1,0 +1,14 @@
+{
+  ".ico": "image/x-icon",
+  ".json": "application/json",
+  ".html": "text/html",
+  ".css": "text/css",
+  ".map": "binary/octet-stream",
+  ".js": "application/x-javascript",
+  ".txt": "text/plain",
+  ".eot": "binary/octet-stream",
+  ".svg": "image/svg+xml",
+  ".woff2": "binary/octet-stream",
+  ".woff": "application/font-woff",
+  ".ttf": "binary/octet-stream"
+}

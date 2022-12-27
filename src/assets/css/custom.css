@@ -1,0 +1,62 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.fs-3 {
+  font-size: 1.75rem;
+}
+
+.btn-secondary {
+  color: #212529;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+
+.btn-secondary:hover {
+  color: #212529;
+  background-color: #c8cfd6;
+  border-color: #c1c9d0;
+}
+
+.btn-secondary.disabled,
+.btn-secondary:disabled {
+  color: #212529;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0072b1;
+}
+
+.badge-secondary {
+  color: #212529;
+  background-color: #dee2e6;
+}
+
+a {
+  color: #0072b1;
+}
+
+a:hover {
+  color: #004165;
+}
+
+.text-primary {
+  color: #0072b1 !important;
+}
+
+.video-box .player-error {
+  position: absolute;
+  top: 65px;
+  left: 20px;
+  color: #fff;
+  background-color: #000;
+  z-index: 1;
+}
+.plyr {
+  min-height: 250px;
+}
