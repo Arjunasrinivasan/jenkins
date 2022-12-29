@@ -1,4 +1,4 @@
-# Session Video Player
+# Session Video Players
 
 ## Project set up
 
